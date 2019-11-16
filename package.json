@@ -1,0 +1,20 @@
+{
+  "name": "gis_example",
+  "version": "1.0.0",
+  "description": "Project with client and server",
+  "main": "client/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "(cd server && npm run start) & npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalo2812/gis_example.git"
+  },
+  "author": "gonzalo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chalo2812/gis_example/issues"
+  },
+  "homepage": "https://github.com/chalo2812/gis_example#readme"
+}

@@ -26,5 +26,6 @@ build/
 
 ### VS Code ###
 .vscode/
-gis.webapp/node_modules/
+client/node_modules/**
+client/package-lock.json
 package-lock.json
