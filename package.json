@@ -2,10 +2,10 @@
   "name": "gis_example",
   "version": "1.0.0",
   "description": "Project with client and server",
-  "main": "client/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "(cd server && npm run start) & npm run start"
+    "client": "node client/index.js",
+    "server": "node server/index.js"
   },
   "repository": {
     "type": "git",
