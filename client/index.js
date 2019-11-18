@@ -1,4 +1,13 @@
 var http = require('http');
+var vue = require('vue')
+
+var app = new vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!'
+    }
+})
+
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('Hello World\n');
