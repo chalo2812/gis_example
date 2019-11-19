@@ -1,9 +1,8 @@
 package ar.gis;
 
-import ar.gis.common.AbstractIntegrationTest;
 import org.junit.jupiter.api.Test;
 
-public class ApplicationTests extends AbstractIntegrationTest {
+public class ApplicationTests {
 
     @Test
     public void contextLoads() {
