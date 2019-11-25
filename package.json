@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/chalo2812/gis_example/issues"
   },
-  "homepage": "https://github.com/chalo2812/gis_example#readme"
+  "homepage": "https://github.com/chalo2812/gis_example#readme",
+  "dependencies": {
+    "@angular/cli": "^8.3.19"
+  }
 }

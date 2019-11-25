@@ -30,3 +30,4 @@ server/node_modules/**
 server/package-lock.json
 package-lock.json
 target/
+node_modules
