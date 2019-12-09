@@ -12,9 +12,14 @@
 	<artifactId>gis_example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gis_example</name>
+	<packaging>pom</packaging>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	<modules>
+		<module>client</module>
+		<module>server</module>
+	</modules>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -67,7 +72,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>Application</mainClass>
+					<mainClass>server.src.main.java.ar.gis.Application</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

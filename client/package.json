@@ -2,8 +2,7 @@
   "name": "client",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
+    "client": "ng serve",
     "build": "ng build"
   },
   "private": true,
