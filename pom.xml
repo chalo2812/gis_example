@@ -81,13 +81,11 @@
 				<version>2.4</version>
 				<configuration>
 					<archive>
-						<!-- Indicamos la clase main y las dependencias -->
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
 							<mainClass>org.springframework.batch.core.launch.support.CommandLineJobRunner</mainClass>
 						</manifest>
-						<!-- Añadimos al classpath el directorio donde irán los .properties -->
 						<manifestEntries>
 							<class-path>conf/</class-path>
 						</manifestEntries>
