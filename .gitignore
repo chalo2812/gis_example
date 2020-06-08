@@ -24,6 +24,7 @@ build/
 
 ### VS Code ###
 .vscode/
+client/dist/**
 client/node_modules/**
 client/package-lock.json
 server/node_modules/**
@@ -31,3 +32,4 @@ server/package-lock.json
 package-lock.json
 target/
 node_modules
+client/.gitignore
