@@ -1,12 +1,11 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Your Vue.js App"></HelloWorld>
     <h2>
-      <b-button second
-        src=""
-        name="algo">
-          Algo
+      <b-button
+        variant="primary">
+        Algo
       </b-button>
     </h2>
   </div>
