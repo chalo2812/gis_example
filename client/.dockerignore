@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+node_modules/
+#public/
+#.eslintrc.js
+#babel.config.js
+client.iml
+Dockerfile
+package-lock.json
+README.md
+#vue.config.js
+#webpack.config.js
